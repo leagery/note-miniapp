@@ -1,7 +1,7 @@
-import Home from './pages/Home';
-
-function App() {
-  return <Home />;
+export default function App() {
+  return (
+    <div style={{ padding: 40, color: 'black', backgroundColor: 'white' }}>
+      <h1>✔️ Всё работает</h1>
+    </div>
+  );
 }
-
-export default App;
