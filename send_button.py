@@ -2,7 +2,7 @@ import requests
 
 TOKEN = "8161702410:AAE_rRGqg7p2kKp5L-Hyxv2meMBsAjx0nYM"
 CHAT_ID = "362286808"
-URL = "http://172.31.177.222:5173/"
+URL = "https://note-miniapp.vercel.app/"
 
 data = {
     "chat_id": CHAT_ID,
@@ -23,3 +23,4 @@ data = {
 
 response = requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage", json=data)
 print(response.json())
+
